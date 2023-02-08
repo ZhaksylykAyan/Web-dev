@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face-book-login {
+    width: 85%;
+
+}
+
+.h-words {
+    font-weight: normal;
+}
+
+.left-login {
+    width: 65%;
+    float: left;
+    text-align: left;
+}
+
+.left-login h2 {
+    width: 55%;
+    padding-left: 5%;
+}
+
+.right-login {
+    width: 396px;
+    float: right;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+}
+
+.right-login .form {
+    background-color: white;
+}
+
+.right-login div {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+#pas {
+    width: 90%;
+    border-radius: 6px;
+    padding: 13px;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+#log {
+    width: 90%;
+    border-radius: 6px;
+    padding: 13px;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.right-login input {
+    width: 100%;
+}
+
+.photo {
+    width: 50%;
+}
+
+#but {
+    background-color: #1877f2;
+    color: white;
+    padding: 12px;
+    width: 90%;
+    margin-top: 5%;
+    font-family: inherit;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+#forgot-pasw {
+    color: #1877f2;
+    font-size: 90%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+a#forgot-pasw:hover{
+    text-decoration: underline;
+}
+
+.newacc {
+    background-color: #42b72a;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 70%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.newacc:hover{
+    background-color: #33971f;
+}
+
+input:focus{
+    outline: 1px solid #1877f2;
+}
+
+.logtext {
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+a.logtext:link{
+    color: black;
+}
+a.logtext:visited{
+    color: black;
+}
+a.logtext:hover{
+    text-decoration: underline;
+}
+
+hr {
+    width: 90%;
+    margin: 20px 16px
+}
+
+
+footer {
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+.footer-contents {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+footer #languages {
+    padding-top: 35px;
+    padding-left: 2px;
+}
+
+footer button {
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    bottom: 6px;
+    right: 10px;
+}
+
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+
+footer ol li {
+    padding-right: 22px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    color: gray;
+}
+
+footer ol li a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer #last {
+    position: relative;
+    top: -5px;
+    padding-bottom: 5px;
+}
+
+footer ol li a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    font-size: 12px;
+    color:rgb(117, 117, 117);
+}
+
+.footer-contents .Selected{
+    text-decoration: underline;
+}

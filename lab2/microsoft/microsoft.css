@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+/*чтобы удалить точки*/
+ul{
+    list-style: none;
+}
+
+.mic-logo{
+    width: 8%;
+}
+
+.main{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check:hover{
+    cursor: pointer;
+    background-color: #1f67d1;
+}
+
+.left-login{
+    display: flex;
+    flex:1;
+    margin-left: 15px;
+}
+.right-login{
+    display: flex;
+}
+
+li{
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+li a:hover{
+    text-decoration: underline;
+
+}
+
+.image{
+    width: 100%;
+}
+.t-in-ph{
+    margin-top: 2%;
+    position: relative;
+    width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    margin-left: 8%;
+    width: 30%;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 2%;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 2%;
+}
+
+.check{
+    color: white;
+    font-size: 16px;
+    background-color: #0067B8;
+    padding: 10px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 2%;
+}
+
+.other-photos {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: -10px;
+    margin-top: 3%;
+}
+
+.other-photos img {
+    width: 356px;
+    height: 201px;
+    display: flex;
+    padding: 15px;
+    position: relative;
+}
+.text-photo{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: -10px;
+    margin-top: 3%;
+}
+
+.text-photo ul{
+    display: flex;
+
+}
+
+.Microsoft-365{
+    width: 40%;
+    margin-left: 1%;
+}
+
+#mic365{
+    font-size: 1.3125rem;
+    margin-bottom: 5%;
+    font-family: inherit;
+}
+
+#app{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.people{
+    color: #0067B8;
+    font-size: 16px;
+}
+#six{
+    margin-left: 4%;
+}
+.Microsoft-Edge{
+    width: 40%;
+    margin-left: 6%;
+}
+#micedge{
+    font-size: 1.3125rem;
+    margin-bottom: 5%;
+    font-family: inherit;
+}
+#amazing{
+    color: black;
+}
+.download{
+    color: #0067B8;
+    font-size: 16px;
+}
+
+.Microsoft-One-Drive{
+    width: 45%;
+    margin-left: 7%;
+}
+#miconedrive{
+    font-size: 1.3125rem;
+    margin-bottom: 5%;
+    font-family: inherit;
+}
+#save{
+    color: black;
+    width: 65%;
+}
+.More{
+    color: #0067B8;
+    font-size: 16px;
+}
+
+.OneNote{
+    width: 45%;
+    margin-left: 4%;
+}
+#onote{
+    font-size: 1.3125rem;
+    margin-bottom: 5%;
+    font-family: inherit;
+}
+#lead{
+    color: black;
+    width: 65%;
+}
+
+.Learn{
+    color: #0067B8;
+    font-size: 16px;
+}
