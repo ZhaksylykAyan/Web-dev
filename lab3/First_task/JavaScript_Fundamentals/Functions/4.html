@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function pow(a, b) {
+        let ans = a;
+        for (let i = 1; i < b; i++){
+            ans *= a;
+        }
+        return ans;
+    }
+    let a = prompt("Your number:", '');
+    let b = prompt("Your degree:",'');
+    if (b < 1){
+        alert("It's impossible");
+    }else{
+        alert(pow(a, b));
+    }
+</script>
+
+</body>
+</html>

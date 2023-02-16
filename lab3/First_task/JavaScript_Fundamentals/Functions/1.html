@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function checkAge(age) {
+        if (age > 18) {
+            return true;
+        } else {
+            // ...
+            return confirm('Did parents allow you?');
+        }
+    }
+    function checkAge(age) {
+        if (age > 18) {
+            return true;
+        }
+        // ...
+        return confirm('Did parents allow you?');
+    }
+    //Both of them will work the same, there is no difference.
+</script>
+
+</body>
+</html>

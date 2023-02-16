@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    if (-1 || 0) alert( 'first' ); // It will run
+    if (-1 && 0) alert( 'second' ); //Will not run
+    if (null || -1 && 1) alert( 'third' ); // Will run
+</script>
+
+</body>
+</html>

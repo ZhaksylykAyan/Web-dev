@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //It's infinity loop because i will never reach 10
+
+    let i = 0;
+    while (i != 10) {
+        i += 0.2;
+    }
+
+    //We can see it from here:
+
+    let i = 0;
+    while (i < 11) {
+        i += 0.2;
+        if (i > 9.8 && i < 10.2) alert( i );
+    }
+</script>
+
+</body>
+</html>
