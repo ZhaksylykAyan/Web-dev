@@ -10,11 +10,15 @@ import { products } from '../products';
 export class ProductListComponent {
   products = [...products];
 
-  share() {
-    window.alert('The product has been shared!');
+  share(link: string) {
+    location.href = link;
   }
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
+  }
+  Space_Price(price: number) {
+    var cost = price.toString();
+    return cost.replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + ' ');
   }
 }
 
